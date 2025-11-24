@@ -117,7 +117,7 @@ python3 scripts/plan_enrich.py \
   --facts sa/fact_pack.json --ccdb sa/compile_commands.json \
   --src-root ../../../dataset/62911/libxml2_62911_vul --rewrite-driver
 
-export DEEPSEEK_API_KEY="sk-126d87d2653c404c952ac47dd93bf5a3"
+export DEEPSEEK_API_KEY=""
 
 python3 scripts/synth_stubs.py \
   --plan out/plans/plan_dict.c_541.json \
