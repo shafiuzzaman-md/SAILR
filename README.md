@@ -96,10 +96,10 @@ Metadata for ground truth:
 python3 fetch_cybergym_data.py --repo-dir ./cybergym_data arvo:61337
 ```
 
-### Download queries
+### Download queries (example)
 codeql pack install rules/uaf-pack \
   --search-path "/home/shafi/codeql-cli/codeql:/home/shafi/.codeql/packages"
-### Run CodeQL
+### Run CodeQL (example)
 ./01_codeql_scan.sh \
   PROJECT_NAME=libxml2_66502_vul \
   SRC_ROOT=./dataset/66502/libxml2_66502_vul \
