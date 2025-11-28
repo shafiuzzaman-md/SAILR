@@ -1,4 +1,4 @@
-# SLICeR
+# SAILR: Static-Analysis guided Iterative LLM Refinement of Symbolic-Execution Harnesses
 Automated pipeline for CodeQL-based and LLM-assisted symbolic execution with KLEE.
 
 ## Prerequisites
